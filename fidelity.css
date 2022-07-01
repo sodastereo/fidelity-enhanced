@@ -17,7 +17,7 @@ domain("fidelity.com") {
         --call-to-action: #E3B505 !important;
         --red: #DE6449;
     }
-        /*Left call to action side panel color*/
+    /*Left call to action side panel color*/
     .acct-selector--selected-hint[_ngcontent-pme-c16] {
         box-shadow: inset 8px 0 var(--call-to-action);
     }
@@ -36,11 +36,13 @@ domain("fidelity.com") {
         border-top: 1px solid var(--accent-border-alt);
     }
 
-
+    
     /*Summary call to action color*/
     .tabPortSum .selected {
         border-bottom: 6px solid var(--call-to-action);
     }
+    
+    
     /*Better looking link colors*/
     .headline-with-image-template .headline-with-image__title__link .link-text a {
         color: var(--call-to-action);
@@ -55,6 +57,8 @@ domain("fidelity.com") {
     .view-more .pvd-link__text {
         color: var(--call-to-action);
     }
+    
+    
     /*Chat bubble color*/
     #va-minimized__icon.va-minimized__icon[_ngcontent-und-c32] {
         background: var(--red);
