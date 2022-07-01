@@ -1,0 +1,86 @@
+@-moz-document url-prefix("https://digital.fidelity.com/ftgw/digital/portfolio/summary"),
+url-prefix("https://www.fidelity.com"),
+url-prefix("https://fidelity.com"),
+url-prefix("https://login.fidelity.com"),
+url-prefix("https://oltx.fidelity.com"),
+url-prefix("http://personal.fidelity.com"),
+url-prefix("https://news.fidelity.com"),
+url-prefix("guidance.fidelity.com"),
+url-prefix("http://eresearch.fidelity.com"),
+domain("fidelity.com") {
+
+    /*The gentlemans color palette*/
+    :root {
+        --header: #7E8987;
+        --accent-border: #13262F;
+        --accent-border-alt: #FFFFFF;
+        --call-to-action: #E3B505 !important;
+        --red: #DE6449;
+    }
+        /*Left call to action side panel color*/
+    .acct-selector--selected-hint[_ngcontent-pme-c16] {
+        box-shadow: inset 8px 0 var(--call-to-action);
+    }
+
+    /*Header green*/
+    .pgnb .pbn {
+        background-color: var(--header);
+    }
+    .pgnb .pnmm .pnl1 .pnhs .pnsh {
+        border-right: 1px solid var(--accent-border-alt);
+    }
+    .pgnb .pnmm .pnl1 {
+        background-color: var(--header);
+    }
+    .pgnb .pnmm {
+        border-top: 1px solid var(--accent-border-alt);
+    }
+
+
+    /*Summary call to action color*/
+    .tabPortSum .selected {
+        border-bottom: 6px solid var(--call-to-action);
+    }
+    /*Better looking link colors*/
+    .headline-with-image-template .headline-with-image__title__link .link-text a {
+        color: var(--call-to-action);
+    }
+
+    .view-more .pvd-link__text {
+        color: var(--call-to-action);
+    }
+    .investments-news-news__more a :nth-child(2) {
+        color: var(--call-to-action);
+    }
+    .view-more .pvd-link__text {
+        color: var(--call-to-action);
+    }
+    /*Chat bubble color*/
+    #va-minimized__icon.va-minimized__icon[_ngcontent-und-c32] {
+        background: var(--red);
+    }
+    .market-index .market-mover-tabs_movers_view_more a :nth-child(2) {
+        color: var(--call-to-action);
+    }
+    .balance-overtime-card-container .balanceDetails a :nth-child(2) {
+        color: var(--call-to-action);
+    }
+    .top-news-news__more a :nth-child(2) {
+        color: var(--call-to-action);
+    }
+    .top-bottom-movers_movers_view_more a :nth-child(2) {
+        color: var(--call-to-action);
+    }
+    .contribution__link .pvd-link__text {
+        color: var(--call-to-action);
+    }
+    .pgnb .pnmm .pnl1 .pnhs:hover .pnsh,
+    .pgnb .pnmm .pnl1 .pnhs.pnhs-active .pnsh {
+        background-color: var(--header);
+    }
+    .pgnb .pnmm .pnl1 .pnl2 li a:hover,
+    .pgnb .pnmm .pnl1 .pnl2 li a:focus {
+        background-color: var(--header);
+        color: #000000 !important;
+    }
+}
